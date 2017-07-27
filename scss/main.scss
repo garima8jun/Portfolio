@@ -1,0 +1,14 @@
+
+$font-face:'Raleway', sans-serif;
+$heading-color: #333;
+$primary-font-color : red;
+$font-size : 34px;
+$border: 1px solid #333;
+
+
+ p{
+   color: $primary-font-color;
+   font-size: $font-size;
+    border:$border;
+ }
+
