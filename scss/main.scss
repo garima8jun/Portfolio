@@ -28,11 +28,14 @@ section{
   margin:20px 0;
 }
 
-
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+}
 
  p{
    color: $primary-font-color;
    font-size: $font-size;
+   margin:6px 0;
 
  }
 
@@ -76,6 +79,8 @@ section{
   border-right: 70px solid transparent;
   height: 0;
   width: 55%;
+  font-size: 14px;
+  letter-spacing: 2px;
   -ms-transform: scale(2, 3);
   -webkit-transform: scale(2, 3);
   transform: scale(1.2, 3.2);
@@ -83,6 +88,13 @@ section{
 
 #banner-sec .content-container:nth-child(2){
 /*  width: 45%;*/
+}
+
+#banner-sec .content-container:first-child .banner-text{
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 10px 10px 40px;
+  letter-spacing: 2px;
 }
 
 
