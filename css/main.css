@@ -26,12 +26,17 @@ p {
 .content-container {
   max-width: 100%; }
 
+.title {
+  text-align: center;
+  color: #9b9d9c; }
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                      Section one
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 #banner-sec.main-container {
   height: 20rem;
   background: #fff;
+  width: 100%;
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
   justify-content: space-around; }
 
@@ -40,10 +45,13 @@ p {
   border-left: 0px solid transparent;
   border-right: 70px solid transparent;
   height: 0;
-  width: 50%;
+  width: 55%;
   -ms-transform: scale(2, 3);
   -webkit-transform: scale(2, 3);
   transform: scale(1.2, 3.2); }
+
+#banner-sec .content-container:nth-child(2) {
+  /*  width: 45%;*/ }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
                                      Section Two
@@ -54,6 +62,7 @@ p {
     content: '';
     background: #C5CAE9;
     width: 5px;
+    top: 3.5%;
     height: 95%;
     position: absolute;
     left: 50%; }
